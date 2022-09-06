@@ -1,12 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        h1{
+            color:rgb(241, 149, 149);
+            text-align: center;
+        }
+        h2 {
+            color:rgb(241, 149, 149);
+        }
+        .world {
+            background-color: rgb(241, 241, 230);
+        }
+        .list1 {
+            background-color: rgb(241, 241, 230);
+        }
+        .list2{
+            background-color: antiquewhite;
+        }
+        .end {
+            color: red;
+        }
+        .changeWidth{
+            width:500px;
+        }
+        .border{
+            border-color: rgb(241, 149, 149);
+            border-width: 5px;
+            border-style: solid;
+            border-radius: 40%;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Hello HTML</h1>
+    <section>
+        <h3> Do you like cats?</h3>
+        <form>
+            <label><input type ="radio" name ="Y or N" checked> Yes </label>
+            <label><input type ="radio" name = "Y or N" checked> Of course!</label>
+            <button type = "submit">I adore cats!</button>
+        </form>
+        <h1>My First Cat</h1>
+        <figure>
+            <img class = "changeWidth border" src="img/cat.jpg" alt "Cat">
+            <figcaption class = "world">
+                Cat <em>just</em> like my first cat
+            </figcaption>
+            <h2>Short storry about my cat</h2>
+            <p>My first cat was very <b>lovely</b>. His name was Johny. He had fluffy fur and long tail. His big, green eyes was like emeralds. He was a good friend and always waited for me after school. After, I had a lot of other pets, but that one I remember especially well! 
+            </p>
+
+        </figure>
+
+    </section>
+    <section class = "list1">
+        <h3>There some things he liked</h3>
+        <ul>
+            <li>sleep on my legs</li>
+            <li>woke up me for breakfast at 5a.m.</li>
+            <li>eat some <s>delicious</s> foods like a 
+                <ol>
+                    <li>mice</li>
+                    <li>fish guts</li>
+                    <li>chicken liver</li>
+                </ol>
+            </li>
+        </ul>
+    </section>
+    <section class = "list2">
+        <h3>
+            And of course things he <strong>hated</strong>
+        </h3>
+        <ul>
+            <li>hoooooover</li>
+            <li>when I gone</li>
+            <li>dogs</li>
+        </ul>
+    </section>
+    <section>
+        <p>My cat Johny was for me more than just pet. He was my best friend. And I miss him such a strong!</p>
+    </section>
+
 </body>
+<footer class = "end">
+    <h6>
+        The story is <b>fictional</b>. Any resemblance to a real cat is coincidental :)
+    </h6>
+</footer>
+
 </html>
